@@ -1,0 +1,53 @@
+{
+    "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+    "name": "jshop4",
+    "version": "4.0.0",
+    "description": "This file contains details of the assets used by jShop4 template.",
+    "license": "GPL-2.0-or-later",
+    "assets": [
+        
+        {
+            "name": "template.jshop4",
+            "description": "The css file to be used when the site is left to right (LTR).",
+            "type": "style",
+            "uri": "jshop4.css",
+            "dependencies": [
+                "template.bootstrap"
+            ]
+        },
+        {
+            "name": "template.bootstrap",
+            "description": "The css file to be used when the site is left to right (LTR).",
+            "type": "style",
+            "uri": "bootstrap.min.css"
+        },
+        {
+            "name": "template.jshop4.rtl",
+            "description": "The css file to be used when the site is left to right (RTL).",
+            "type": "style",
+            "uri": "jshop4.css",
+            "dependencies": [
+                "template.bootstrap.rtl"
+            ]
+        },
+        {
+            "name": "template.bootstrap.rtl",
+            "description": "The css file to be used when the site is left to right (RTL).",
+            "type": "style",
+            "uri": "bootstrap.min.css"
+        },
+        {
+            "name": "template.bootstrap",
+            "description": "The file containing the javascript for this template.",
+            "type": "script",
+            "uri": "bootstrap.min.js",
+            "attributes" : {
+                "defer": true
+            },
+            "dependencies": [
+                "core"
+            ]
+        }
+        
+    ]
+}

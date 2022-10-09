@@ -1,0 +1,35 @@
+$darkRed:#cc030d;
+$red:#ff2d38;
+$black1:#282828;
+$black2:#181818;
+$black:#111;
+$lightGray:#f3f3f3;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: $black1;
+}
+
+main{
+    background-color: $lightGray;
+}
+
+footer{
+    background-color: $black2;
+    color:white;
+
+    #top-footer{
+        background-color: $red;
+
+    }
+
+    #copyright{
+        background-color: $black;
+    }
+}
